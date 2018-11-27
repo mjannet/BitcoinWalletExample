@@ -51,7 +51,7 @@ namespace BitcoinProject
 			Boolean validValue = false;
 			Double value;
 
-			if (Double.TryParse(nbrValue, out value) == true)
+			if (Double.TryParse(nbrValue, out value) == false)
 			{
 				validValue = false;
 			}
