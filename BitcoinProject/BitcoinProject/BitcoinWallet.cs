@@ -33,7 +33,7 @@ namespace BitcoinProject
 				strBitcoinQty = Console.ReadLine();
 			}
 			double bitcoinQuantity = Convert.ToDouble(strBitcoinQty);
-			return bitcoinQuantity;
+			//return bitcoinQuantity;
 		}
 
 		public double GetCurrentValueInDollars(double bitcoinQuantity, BitcoinPriceService priceService)
